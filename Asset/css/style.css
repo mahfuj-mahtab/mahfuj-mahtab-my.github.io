@@ -3,7 +3,7 @@
     padding: 0px;
 }
 .container{
-    width: 99.9%;
+    width: 100%;
     height: auto;
     background: #111111;
     /* border: 1px solid red; */
@@ -153,4 +153,22 @@
     border: 2px solid #FFB400;
     cursor: pointer;
 }
-
+.left_about_page{
+    width: 93%;
+    float: left;
+}
+.about_title{
+    color: white;
+    margin-top: 70px;
+    /* border: 1px solid red; */
+    padding-left: 750px;
+    height: 100px;
+    line-height: 100px; 
+    font-size: 55px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+.me{
+    color: #FFB400;
+}
