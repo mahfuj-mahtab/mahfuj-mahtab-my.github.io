@@ -130,10 +130,37 @@
     float: left;
     font-size: 17px;
     font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+
 
 
 }
 .more_btn:hover{
+    background: #FFB400;
+    transition: background-color 0.5s;
+
+}
+.cv_btn{
+    width: 200px;
+    height: 60px;
+    border: 1px solid #FFB400;
+    display: block;
+    text-decoration: none;
+    color: white;
+    line-height: 60px;
+    /* text-align: center; */
+    padding-left: 30px;
+    border-radius: 50px;
+    /* margin-left: 150px; */
+    margin-top: 30px;
+    float: left;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+.cv_btn:hover{
     background: #FFB400;
     transition: background-color 0.5s;
 
@@ -171,4 +198,43 @@
 }
 .me{
     color: #FFB400;
+}
+.left_about{
+    width: 50%;
+    height:500px;
+    border: 1px solid red;
+    float:left;
+}
+.right_about{
+    width: 49%;
+    height:500px;
+    border: 1px solid red;
+    float:left;
+}
+.personal_info{
+    width:600px;
+    margin-left: 200px;
+    height: 500px;
+    border: 1px solid red;
+}
+.personal{
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 29px;
+    margin-bottom: 20px;
+}
+.personal_span{
+    /* width: 600px; */
+    height: 30px;
+    display: block;
+    float: none;
+    /* border: 1px solid red; */
+    color: rgb(206, 200, 200);
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+}
+.personal_span_value{
+    color: white;
 }
