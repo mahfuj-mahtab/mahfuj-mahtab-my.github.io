@@ -208,6 +208,21 @@
     border: 2px solid #FFB400;
     cursor: pointer;
 }
+.arrow_1{
+    /* display: block; */
+    height: 45px;
+    width: 55px;
+    margin-left: -60px;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 31px;
+    color: white;   
+    padding-top: 10px;
+    font-size: 35px;
+    background: #FFB400;
+    border: 2px solid #FFB400;
+    cursor: pointer;
+}
 .left_about_page{
     width: 93%;
     float: left;
