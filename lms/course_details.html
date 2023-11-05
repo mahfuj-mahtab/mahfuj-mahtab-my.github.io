@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Andika&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f23be647b6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./asset/css/main_responsive.css">
+</head>
+<body>
+    <header>
+        
+            <div class="top_header">
+                <div class="top_main_header">
+                    <div class="top_main_header_left">
+                        <h1 class="logo">CoderHobo</h1>
+                    </div>
+                    <div class="top_main_header_middle">
+                        <ul>
+                            <li><a href="SeeAllCourse.html">Course</a></li>
+                            <li><a href="SeeAllArticle.html">Article</a></li>
+                            <li><a href="AllQuiz.html">Quiz</a></li>
+                            <li><a href="LeaderBoard.html">Leaderboard</a></li>
+                            <li><a href="">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="top_main_header_right">
+                        <form action="/gg">
+                            <input class="search_txt" type="text" placeholder="Search...">
+                            <button class="search_btn"><i class="fa-solid fa-magnifying-glass search_btn_icon"></i></button>
+                        </form>
+                        
+                        <i  class="fa-solid fa-user icon">
+                            
+                        </i>
+                        <i class="fa-solid fa-bars icon_bar"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom_header">
+                <div class="bottom_main_header">
+                    <ul>
+                        <li><a href="CategoryWiseShow.html">Python</a></li>
+                        <li><a href="CategoryWiseShow.html">C</a></li>
+                        <li><a href="CategoryWiseShow.html">Javascript</a></li>
+                        <li><a href="CategoryWiseShow.html">C++</a></li>
+                        <li><a href="CategoryWiseShow.html">Game</a></li>
+                        <li><a href="CategoryWiseShow.html">Website</a></li>
+                        <li><a href="CategoryWiseShow.html">Python</a></li>
+                        <li><a href="CategoryWiseShow.html">C++</a></li>
+                        <li><a href="CategoryWiseShow.html">Game</a></li>
+                        <li><a href="CategoryWiseShow.html">Website</a></li>
+                        <li><a href="CategoryWiseShow.html">Python</a></li>
+                        <li><a href="CategoryWiseShow.html">C++</a></li>
+                        <li><a href="CategoryWiseShow.html">Game</a></li>
+                        <li><a href="CategoryWiseShow.html">Website</a></li>
+                        <li><a href="CategoryWiseShow.html">Python</a></li>
+                    </ul>
+                </div>
+            </div>
+        
+    </header>
+    <div class="course_details_container">
+        <div class="left_course_details_container">
+            <div class="course_details_in_right_side">
+                <div class="course_box_in_right">
+                    <div class="course_trailer">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/9RboGYDPbYo?si=0FvPVoViIBC7RxfU" frameborder="0"></iframe>
+
+                        
+                    </div>
+                    <h3 class="price">
+    
+                      
+                        1000</b> <del>2000 Taka</del></h3>
+                      
+                       
+                    <a class="enroll-btn" id="submitBtn" href="/enroll/course/{{course.id}}/{{course.title.split|join:'-'}}">Enroll</a>
+                   
+                 
+                    <form action="/apply/course/{{course.id}}/{{course.title.split|join:'-'}}" method="get">
+                        <input type="text" class="promo" name="coupon" placeholder="Promo Code">
+                        <input type="submit" value="Apply" class="promo-btn">
+                    </form>
+                    
+                  
+                    <hr>
+                    <h3 class="course_include">What's Include</h3>
+                    <div class="include_section">
+                        <div class="left_include">
+                            <ul>
+                                <li><i class="fa-solid fa-play course_details_icon"></i> 12+ Videos</li>
+                                <li><i class="fa-solid fa-clock course_details_icon"></i> 2+ Hours</li>
+                                <li><i class="fa-solid fa-file-lines course_details_icon"></i> 76+ Assignment</li>
+                               
+                            </ul>
+                        </div>
+                        <div class="right_include">
+                            <ul>
+                                <li><i class="fa-solid fa-chair course_details_icon"></i> 3454 Remaining Seat</li>
+                                <li><i class="fa-solid fa-users course_details_icon"></i> 100+ Enrolled</li>
+                                <li><i class="fa-solid fa-play course_details_icon"></i> 43 Month Live Support</li>
+                               
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="admission_time">
+                    <div class="left_admission_time">
+                        <p> Admission Start <br> <b> 21 Jan 2023 </b> </p>
+                    </div>
+                    <div class="right_admission_time">
+                        <p> Admission Start <br> <b> 35 Jan 2023 </b> </p>
+                    </div>
+                    
+                </div> 
+            </div>
+            <div class="left_course_details">
+            <h1 class="course_heading">Complete Python Course</h1>
+            <p class="course_short_p">Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!</p>
+            <div class="syllabus">
+                <h3>Course Syllabus</h3>
+               
+                <div class="course_section" id="course_box">
+                    <div class="course_section_top">
+                    <h3> First Section</h3>
+                    
+                    <i class="course_section_icon fa-solid fa-caret-down"></i>
+                </div>
+            </div>
+            <div class="course_section_bottom" id="bottom_course">
+            
+                <div class="course_video">
+              
+                    <a href=""> <h3><i class="fa-solid fa-play play_icon_in_course"></i> First Video</h3> 
+                        
+                        <i class="course_section_icon_video fa-solid fa-lock"></i> 
+                       
+                     
+                     
+                            
+                      
+                    </a>
+                </div>
+               
+         
+            
+
+            </div>
+                <div class="course_section" id="course_box">
+                    <div class="course_section_top">
+                    <h3> First Section</h3>
+                    
+                    <i class="course_section_icon fa-solid fa-caret-down"></i>
+                </div>
+            </div>
+            <div class="course_section_bottom" id="bottom_course">
+            
+                <div class="course_video">
+              
+                    <a href=""> <h3><i class="fa-solid fa-play play_icon_in_course"></i> First Video</h3> 
+                        
+                        <i class="course_section_icon_video fa-solid fa-lock"></i> 
+                       
+                     
+                     
+                            
+                      
+                    </a>
+                </div>
+               
+         
+            
+
+            </div>
+                <div class="course_section" id="course_box">
+                    <div class="course_section_top">
+                    <h3> First Section</h3>
+                    
+                    <i class="course_section_icon fa-solid fa-caret-down"></i>
+                </div>
+            </div>
+            <div class="course_section_bottom" id="bottom_course">
+            
+                <div class="course_video">
+              
+            
+                       
+                     
+                        <a href=""> <h3><i class="fa-solid fa-play play_icon_in_course"></i> Second Video</h3> 
+                            <div class="free">Free</div>
+                            
+                      
+                    </a>
+                </div>
+               
+         
+            
+
+            </div>
+                
+               
+          
+   
+
+            </div>
+
+            <div class="instructor_section">
+                <h3>Instructor's</h3>
+               
+                <div class="instructor">
+                    <img class="instructor_logo" src="./asset/image/1.jpg" alt="">
+                    <!-- <img class="instructor_logo" src="{% static 'img/mohot.jpg'%}" alt=""> -->
+                    <h3>Mahfuj Mahtab Mohot</h3>
+                    <p>Website Designer & Developer</p>
+                    <div class="instructor_social">
+                        <ul>
+                            <li><a href="{{instructor.fb_link}}"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="{{instructor.insta_link}}"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="{{instructor.youtube_link}}"><i class="fa-brands fa-youtube"></i></a></li>
+                            <li><a href="{{instructor.github_link}}"><i class="fa-brands fa-github"></i></a></li>
+                            <li><a href="{{instructor.linkedin_link}}"><i class="fa-brands fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+            <h3 class="course_details_h3">Course Details</h3>
+            <div class="course_details">
+                <p>
+                    Welcome to the 100 Days of Code - The Complete Python Pro Bootcamp, the only course you need to learn to code with Python. With over 500,000 5 STAR reviews and a 4.8 average, my courses are some of the HIGHEST RATED courses in the history of Udemy!  
+
+                    100 days, 1 hour per day, learn to build 1 project per day, this is how you master Python.
+                    
+                    At 60+ hours, this Python course is without a doubt the most comprehensive Python course available anywhere online. Even if you have zero programming experience, this course will take you from beginner to professional. Here's why:
+                    
+                    The course is taught by the lead instructor at the App Brewery, London's best in-person programming Bootcamp.
+                    
+                    The course has been updated to be 2023 ready and you'll be learning the latest tools and technologies used at large companies such as Apple, Google and Netflix.
+                    
+                    This course doesn't cut any corners, there are beautiful animated explanation videos and tens of real-world projects which you will get to build. e.g. Tinder auto swiper, Snake game, Blog Website, LinkedIn Auto Submit Job Application
+                    
+                    The curriculum was developed over a period of 2 years, with comprehensive student testing and feedback.
+                    
+                    We've taught over 600,000 students how to code and many have gone on to change their lives by becoming professional developers or starting their own tech startup.
+                    
+                    You'll save yourself over $12,000 by enrolling, and still get access to the same teaching materials and learn from the same instructor and curriculum as our in-person programming Bootcamp.
+                    
+                    The course is constantly updated with new content, with new projects and modules determined by students - that's you!
+                    
+                    
+                    
+                    We'll take you step-by-step through engaging video tutorials and teach you everything you need to know to succeed as a Python developer.
+                    
+                    The course includes over 65 hours of HD video tutorials and builds your programming knowledge while making real-world Python projects.
+            </p>
+            </div>
+        </div>
+    </div>
+        <div class="right_course_details_container">
+            <div class="left_course_details">
+                <div class="course_box_in_right">
+                    <div class="course_trailer">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/9RboGYDPbYo?si=0FvPVoViIBC7RxfU" frameborder="0"></iframe>
+
+                        
+                    </div>
+                    <h3 class="price">
+    
+                      
+                        1000</b> <del>2000 Taka</del></h3>
+                      
+                       
+                    <a class="enroll-btn" id="submitBtn" href="/enroll/course/{{course.id}}/{{course.title.split|join:'-'}}">Enroll</a>
+                   
+                 
+                    <form action="/apply/course/{{course.id}}/{{course.title.split|join:'-'}}" method="get">
+                        <input type="text" class="promo" name="coupon" placeholder="Promo Code">
+                        <input type="submit" value="Apply" class="promo-btn">
+                    </form>
+                    
+                  
+                    <hr>
+                    <h3 class="course_include">What's Include</h3>
+                    <div class="include_section">
+                        <div class="left_include">
+                            <ul>
+                                <li><i class="fa-solid fa-play course_details_icon"></i> 12+ Videos</li>
+                                <li><i class="fa-solid fa-clock course_details_icon"></i> 2+ Hours</li>
+                                <li><i class="fa-solid fa-file-lines course_details_icon"></i> 76+ Assignment</li>
+                               
+                            </ul>
+                        </div>
+                        <div class="right_include">
+                            <ul>
+                                <li><i class="fa-solid fa-chair course_details_icon"></i> 3454 Remaining Seat</li>
+                                <li><i class="fa-solid fa-users course_details_icon"></i> 100+ Enrolled</li>
+                                <li><i class="fa-solid fa-play course_details_icon"></i> 43 Month Live Support</li>
+                               
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="admission_time">
+                    <div class="left_admission_time">
+                        <p> Admission Start <br> <b> 21 Jan 2023 </b> </p>
+                    </div>
+                    <div class="right_admission_time">
+                        <p> Admission Start <br> <b> 35 Jan 2023 </b> </p>
+                    </div>
+                    
+                </div> 
+            </div>
+            <div class="right_course_details_in_small_size">
+                <h1 class="course_heading">Complete Python Course</h1>
+                <p class="course_short_p">Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!</p>
+                <div class="syllabus">
+                    <h3>Course Syllabus</h3>
+                   
+                    <div class="course_section" id="course_box">
+                        <div class="course_section_top">
+                        <h3> First Section</h3>
+                        
+                        <i class="course_section_icon fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+                <div class="course_section_bottom" id="bottom_course">
+                
+                    <div class="course_video">
+                  
+                        <a href=""> <h3><i class="fa-solid fa-play play_icon_in_course"></i> First Video</h3> 
+                            
+                            <i class="course_section_icon_video fa-solid fa-lock"></i> 
+                           
+                         
+                         
+                                
+                          
+                        </a>
+                    </div>
+                   
+             
+                
+    
+                </div>
+                    <div class="course_section" id="course_box">
+                        <div class="course_section_top">
+                        <h3> First Section</h3>
+                        
+                        <i class="course_section_icon fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+                <div class="course_section_bottom" id="bottom_course">
+                
+                    <div class="course_video">
+                  
+                        <a href=""> <h3><i class="fa-solid fa-play play_icon_in_course"></i> First Video</h3> 
+                            
+                            <i class="course_section_icon_video fa-solid fa-lock"></i> 
+                           
+                         
+                         
+                                
+                          
+                        </a>
+                    </div>
+                   
+             
+                
+    
+                </div>
+                    <div class="course_section" id="course_box">
+                        <div class="course_section_top">
+                        <h3> First Section</h3>
+                        
+                        <i class="course_section_icon fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+                <div class="course_section_bottom" id="bottom_course">
+                
+                    <div class="course_video">
+                  
+                
+                           
+                         
+                            <a href=""> <h3><i class="fa-solid fa-play play_icon_in_course"></i> Second Video</h3> 
+                                <div class="free">Free</div>
+                                
+                          
+                        </a>
+                    </div>
+                   
+             
+                
+    
+                </div>
+                    
+                   
+              
+       
+    
+                </div>
+    
+                <div class="instructor_section">
+                    <h3>Instructor's</h3>
+                   
+                    <div class="instructor">
+                        <img class="instructor_logo" src="./asset/image/1.jpg" alt="">
+                        <!-- <img class="instructor_logo" src="{% static 'img/mohot.jpg'%}" alt=""> -->
+                        <h3>Mahfuj Mahtab Mohot</h3>
+                        <p>Website Designer & Developer</p>
+                        <div class="instructor_social">
+                            <ul>
+                                <li><a href="{{instructor.fb_link}}"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="{{instructor.insta_link}}"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="{{instructor.youtube_link}}"><i class="fa-brands fa-youtube"></i></a></li>
+                                <li><a href="{{instructor.github_link}}"><i class="fa-brands fa-github"></i></a></li>
+                                <li><a href="{{instructor.linkedin_link}}"><i class="fa-brands fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+                <h3 class="course_details_h3">Course Details</h3>
+                <div class="course_details">
+                    <p>
+                        Welcome to the 100 Days of Code - The Complete Python Pro Bootcamp, the only course you need to learn to code with Python. With over 500,000 5 STAR reviews and a 4.8 average, my courses are some of the HIGHEST RATED courses in the history of Udemy!  
+    
+                        100 days, 1 hour per day, learn to build 1 project per day, this is how you master Python.
+                        
+                        At 60+ hours, this Python course is without a doubt the most comprehensive Python course available anywhere online. Even if you have zero programming experience, this course will take you from beginner to professional. Here's why:
+                        
+                        The course is taught by the lead instructor at the App Brewery, London's best in-person programming Bootcamp.
+                        
+                        The course has been updated to be 2023 ready and you'll be learning the latest tools and technologies used at large companies such as Apple, Google and Netflix.
+                        
+                        This course doesn't cut any corners, there are beautiful animated explanation videos and tens of real-world projects which you will get to build. e.g. Tinder auto swiper, Snake game, Blog Website, LinkedIn Auto Submit Job Application
+                        
+                        The curriculum was developed over a period of 2 years, with comprehensive student testing and feedback.
+                        
+                        We've taught over 600,000 students how to code and many have gone on to change their lives by becoming professional developers or starting their own tech startup.
+                        
+                        You'll save yourself over $12,000 by enrolling, and still get access to the same teaching materials and learn from the same instructor and curriculum as our in-person programming Bootcamp.
+                        
+                        The course is constantly updated with new content, with new projects and modules determined by students - that's you!
+                        
+                        
+                        
+                        We'll take you step-by-step through engaging video tutorials and teach you everything you need to know to succeed as a Python developer.
+                        
+                        The course includes over 65 hours of HD video tutorials and builds your programming knowledge while making real-world Python projects.
+                </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="bottom_footer">
+        All Right Reserved @2023
+    </div>
+</footer>
+</body>
+<script src="./asset/js/my_js.js"></script>
+<script src="./asset/js/animate.js"></script>
+<script src="./asset/js/script.js"></script>
+</html>
