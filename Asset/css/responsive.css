@@ -113,7 +113,7 @@
 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and ((min-width: 760px ) and (max-width : 913px))
+@media only screen and ((min-width: 760px ) and (max-width : 999px))
 {
     /* .container{
         height: 1500px;
@@ -242,19 +242,134 @@
  }
 
 }
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) 
+@media only screen and ((min-width: 1000px ) and (max-width : 1700px))
 {
-    body{
-        background: rgb(49, 6, 6);
+    .container{
+        height: 100%;
     }
-}
+ .leftcontainer{
+    width: 40%;
+    height: 600px;
+    float: left;
+    /* display: none; */
+ }
+ .profile_pic{
+    width: 90%;
+    height: 500px;
+    border-radius: 50px;
+    margin-left: 20px;
+ }
+ .rightcontainer{
+    width: 59%;
+    float: right;
+    margin-top: 50px;
+    /* display: none; */
+ }
+ .left_leftcontainer{
+    /* display: none;
+    border: 1px;     */
+ }  
+ .sidebar{
+    margin-top: 150px;
+    float: none;
+    /* margin-right: 20px; */
+    /* border: 1px solid red; */
+    width: 20%;
+    left: 85%;
+ }
+ .hi{
+    margin-top: 0px;
+    margin-left: 20px;
+    font-size: 38px;
+ }
+ .des{
+    font-size: 18px;
+    margin-left: 30px;
+ }
+ .intro{
+    width: 90%;
+    margin-left: 20px;
+    margin-right: 1px;
+    font-size: 16px;
+ }
+ .sidebar_a{
+    width: 70px;
+    height: 70px;
+    /* margin-bottom: 20px; */
+ }
+ .sidebar ul li{
+    height: 80px;
+ }
+ .more_btn{
+    margin-left: 30px;
+    font-size: 18px;
+ }
+ .material-symbols-outlined{
+    font-size: 35px;
+    padding-top: 15px;
+ }
+ .left_about_page{
+    width: 100%;
+    height: 3500px;
+ }
+ .left_about{
+    width: 40%;
+    /* display: none; */
+    height: 500px;
+    float: left;
+ }
+ .about_title{
+    padding-left:220px;
+    margin-top: 0px;
+    font-size: 53px;
+ }
+ .personal{
+    font-size: 25px;
+ }
+ .personal_info{
+    width: 90%;
+    /* display: none; */
+    margin-left: 20px;
+ }
+ .right_about{
+    width: 59.5%;
+    height: 300px;
+    /* border: 1px solid red; */
+ }
+ .skill_block{
+    margin-right: 10px;
+    margin-bottom: 5px;
+    width: 250px;
+    height: 200px;
+    margin-left: 10px;
+ }
+ .skillsection{
+    top: 550px;
+    width: 90%;
+ }
+ .skillh1{
+    font-size: 26px;
+ }
+ .skill_main_section{
+    padding-left: 20px;
+ }
+ .left_project_page{
+    width: 100%;
+    height: 3500px;
+    /* border: 1px solid red; */
+ }
+ .project_section{
+    margin-left: 190px;
+    /* border: 1px solid red; */
+ }
+ .project_div{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    float: left;
+ }
+ .project_im{
+    width: 350px;
+ }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) 
-{
-    body{
-        background: rgb(0, 220, 114);
-    }
 }

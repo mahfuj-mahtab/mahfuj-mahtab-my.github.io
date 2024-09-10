@@ -37,9 +37,7 @@
     /* border: 1px solid red; */
     overflow: hidden;
 }
-.modal_body{
-    width: 1500px;
-}
+
 .modal-body ul{
     width: 100%;
 }
